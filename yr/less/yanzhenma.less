@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@num:37.5rem;
+*{margin: 0px;padding:0px;}
+*{box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none;}
+.box{
+    width:100%;
+    height: auto;
+}
+.bj{
+    width:100%;
+    height:667/@num;
+    background: url(../img/bj2.png) no-repeat;
+    background-size: 100% 100%;
+}
+.head{
+    width:100%;
+    height: 80/@num;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width:150/@num;
+    height: 38/@num;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.left>a{
+    width:120/@num;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.left>a>img{
+    width:12/@num;
+    height:20/@num;
+}
+.left>a>p{
+    width:80/@num;
+    height: 25/@num;
+    font-size:18/@num;
+    color: #FCFCFC;
+}
+.zhuti{
+    width:100%;
+    height:280/@num;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:space-around;
+}
+.text{
+    width:80%;
+    height:70/@num;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+}
+.text>p{
+    font-size:18/@num;
+    color:#F5F6F6;
+}
+.yanzhneg{
+    width: 80%;
+    height:50/@num;
+
+    form{
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        input{
+            width:45%;
+            height:38/@num;
+            background:transparent;
+            border:1px solid #fff;
+            outline:none;
+            font-size:18/@num;
+            text-align: center;
+            &::-webkit-input-placeholder{
+                color:#AAAFAC;
+            }
+        }
+    }
+}
+
+.xyb{
+    width:80%;
+    height: 70/@num;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+    .text2{
+        width:127/@num;
+        height: 40/@num;
+        background:#31ABD7;
+        border-radius: 8/@num;
+        font-size:17/@num;
+        color:#DEECF3;
+        text-align: center;
+        line-height: 40/@num;
+    }
+}
