@@ -1,0 +1,156 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+  background: #1F2025;
+}
+.box #header {
+  width: 100%;
+  height: 1.86666667rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box #header .left {
+  width: 1.6rem;
+  height: 1.06666667rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box #header .left a {
+  width: 0.29333333rem;
+  height: 0.58666667rem;
+  display: flex;
+}
+.box #header .left a img {
+  width: 100%;
+  height: 100%;
+}
+.box #header .zhong {
+  width: 3.46666667rem;
+  height: 1.06666667rem;
+}
+.box #header .zhong p {
+  font-size: 0.53333333rem;
+  color: #A9E98B;
+  text-align: center;
+  line-height: 1.06666667rem;
+}
+.box #header .right {
+  width: 1.33333333rem;
+  height: 40 / num;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box #header .right a {
+  width: 0.16rem;
+  height: 0.66666667rem;
+  display: flex;
+}
+.box #header .right a img {
+  width: 100%;
+  height: 100%;
+}
+.box .content {
+  width: 100%;
+  height: 10.93333333rem;
+  position: relative;
+}
+.box .content .shou {
+  width: 70%;
+  height: 1.06666667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .content .shou p {
+  font-size: 0.37333333rem;
+  color: #C8F196;
+}
+.box .content .container {
+  width: 100%;
+  height: 9.06666667rem;
+  margin-top: 0.53333333rem;
+}
+.box .content .container ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.box .content .container ul li {
+  width: 100%;
+  height: 1.33333333rem;
+  background: #2F3034;
+  display: flex;
+  justify-content: space-between;
+}
+.box .content .container ul li .li-left {
+  width: 6.66666667rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.box .content .container ul li .li-left .left-p {
+  width: 4.66666667rem;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-left: 2rem;
+}
+.box .content .container ul li .li-left .left-p .p1 {
+  width: 3.2rem;
+  font-size: 0.24rem;
+  color: #9A9B9C;
+}
+.box .content .container ul li .li-left .left-p .p2 {
+  font-size: 0.24rem;
+  color: #6C6D6F;
+}
+.box .content .container ul li .li-right {
+  width: 1.86666667rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .content .container ul li .li-right a {
+  width: 0.48rem;
+  height: 0.26666667rem;
+  display: flex;
+}
+.box .content .container ul li .li-right a img {
+  width: 100%;
+  height: 100%;
+}
+.box .content .tu {
+  width: 0.42666667rem;
+  height: 10rem;
+  background: url(../img/11280910.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.8rem;
+}
+.box footer {
+  width: 100%;
+  height: 8.8rem;
+}
+/*# sourceMappingURL=shouyeziye.css.map */

@@ -1,0 +1,242 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+  background: #1E1E1E;
+  overflow: hidden;
+}
+.box .head {
+  width: 100%;
+  height: 4.66666667rem;
+}
+.box .head .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.box .head .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+.box .head .swiper-container .head-left {
+  width: 1.33333333rem;
+  height: 2.13333333rem;
+  position: absolute;
+  top: 0px;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .head .swiper-container .head-left a {
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+  display: block;
+}
+.box .head .swiper-container .head-left a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.box .banner {
+  width: 100%;
+  height: 4.26666667rem;
+  background: url(../img/2710300_165532032709_2@2x.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .banner .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box .banner .container li {
+  width: 3.33333333rem;
+  height: 50%;
+  text-align: center;
+  line-height: 1.6rem;
+}
+.box .banner .container li p {
+  height: 0.4rem;
+  font-size: 0.37333333rem;
+  color: #A7A8AC;
+}
+.box .content {
+  width: 100%;
+  height: 6rem;
+  background: url(../img/jx4.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .content .content-top {
+  width: 100%;
+  height: 1.33333333rem;
+}
+.box .content .content-top .text {
+  width: 5.6rem;
+  height: 100%;
+  font-size: 0.42666667rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .content .content-top .text span {
+  color: #E8E5E5;
+}
+.box .content .content-top .text #s2 {
+  color: #6EB370;
+}
+.box .content .content-top .text #s1 {
+  text-indent: 0.4rem;
+}
+.box .content .content-main {
+  width: 100%;
+  height: 4.26666667rem;
+}
+.box .content .content-main #li-1 {
+  width: 100%;
+  height: 25%;
+  border-bottom: 1px solid #5D5D5E;
+}
+.box .content .content-main #li-1 p {
+  width: 2.4rem;
+  height: 0.8rem;
+  font-size: 0.42666667rem;
+  color: #6EB370;
+  text-align: center;
+  line-height: 1.06666667rem;
+}
+.box .content .content-main .li-2 {
+  width: 100%;
+  height: 24%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.08rem solid #4c4c4c;
+  position: relative;
+}
+.box .content .content-main .li-2 p {
+  width: 2.4rem;
+  height: 0.8rem;
+  color: #A7A8AC;
+  font-size: 0.42666667rem;
+  text-align: center;
+  line-height: 0.93333333rem;
+}
+.box .content .content-main .li-2 .p1 {
+  width: 1.86666667rem;
+  font-size: 0.32rem;
+}
+.box .content .content-main .li-2 img {
+  width: 5.54666667rem;
+  height: 0.21333333rem;
+  position: absolute;
+  bottom: -0.13333333rem;
+}
+.box .content .content-main #li-3 {
+  height: 21%;
+  border-bottom: 0.10666667rem double #5e5e60;
+}
+.box .content .content-main #li-3 img {
+  width: 3.6rem;
+}
+.box .content .content-main #li-4 {
+  width: 100%;
+}
+.box .content .content-main #li-4 img {
+  width: 6.8rem;
+}
+.box .bottom {
+  width: 100%;
+  height: 4.8rem;
+  background: url(../img/11271029.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.53333333rem;
+}
+.box .bottom .t1 {
+  width: 100%;
+  height: 1.33333333rem;
+  background: #444444;
+}
+.box .bottom .t1 a {
+  width: 3.46666667rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .bottom .t1 a p {
+  font-size: 0.4rem;
+  color: #F4F1F1;
+}
+.box .bottom .t-xia {
+  width: 100%;
+  height: 2.66666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-indent: 0.53333333rem;
+}
+.box .bottom .t-xia h4 {
+  width: 100%;
+  font-size: 0.32rem;
+  color: #EDF0ED;
+}
+.box .bottom .t-xia p {
+  width: 100%;
+  font-size: 0.24rem;
+  color: #EDF0ED;
+}
+.box .foot {
+  width: 100%;
+  height: 1.46666667rem;
+  background: url(../img/dibu.png) no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.box .foot ul {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .foot ul li {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.box .foot ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box .foot ul li a img {
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+}
+.box .foot ul li a p {
+  font-size: 0.26666667rem;
+  color: #979899;
+}
+.box .foot ul li a #p9 {
+  color: #BBBBBD;
+}
+.box .kong {
+  width: 100%;
+  height: 1.06666667rem;
+}

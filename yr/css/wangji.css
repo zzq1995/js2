@@ -1,0 +1,123 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+}
+.box .beijing {
+  width: 100%;
+  height: 17.78666667rem;
+  background: url(../img/bj1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .beijing .head {
+  width: 100%;
+  height: 1.6rem;
+  display: flex;
+}
+.box .beijing .head .left {
+  width: 1.33333333rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .beijing .head .left img {
+  width: 0.32rem;
+  height: 0.50666667rem;
+}
+.box .beijing .head .text {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .beijing .head .text p {
+  width: 2.66666667rem;
+  height: 0.74666667rem;
+  font-size: 0.58666667rem;
+  color: #3EA9CD;
+}
+.box .beijing .main {
+  width: 100%;
+  height: 9.06666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .beijing .main form {
+  width: 80%;
+  height: 7.46666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .beijing .main form input {
+  width: 100%;
+  height: 1.06666667rem;
+  background: #FFFFFF;
+  border-radius: 0.21333333rem;
+  font-size: 0.37333333rem;
+  outline: none;
+  text-indent: 1em;
+}
+.box .beijing .main form input::-webkit-input-placeholder {
+  color: #DEDDDD;
+}
+.box .beijing .main form .lang {
+  width: 100%;
+  height: 1.06666667rem;
+  display: flex;
+}
+.box .beijing .main form .lang #input2 {
+  width: 70%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.box .beijing .main form .lang .t-right {
+  width: 30%;
+  height: 100%;
+  background: #18B4ED;
+  border-radius: 0.21333333rem;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 0.32rem;
+}
+.box .beijing .main form .lang .t-right a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #E8F2F9;
+}
+.box .beijing .main .xyb {
+  width: 80%;
+  height: 1.12rem;
+  background: #18B4ED;
+  border-radius: 0.21333333rem;
+}
+.box .beijing .main .xyb a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #E8F2F9;
+  font-size: 0.4rem;
+}

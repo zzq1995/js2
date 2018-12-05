@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+}
+.box .banner {
+  width: 100%;
+  height: 17.78666667rem;
+  background: url(../img/bj1.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .banner .content {
+  width: 100%;
+  height: 9.49333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .content .text {
+  width: 100%;
+  height: 2.08rem;
+  text-align: center;
+}
+.box .banner .content .text p {
+  font-size: 0.53333333rem;
+  color: #FFFFFF;
+  line-height: 0.93333333rem;
+}

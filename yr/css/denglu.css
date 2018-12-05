@@ -1,0 +1,130 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+}
+.box .banner {
+  width: 100%;
+  height: 17.78666667rem;
+  background: url(../img/bj@2x.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .banner .tubiao {
+  width: 100%;
+  height: 6.13333333rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.box .banner .tubiao .tu {
+  width: 2.45333333rem;
+  height: 2.34666667rem;
+  background: url(../img/zu3@2x.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .banner .zhuti {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .banner .zhuti .zc {
+  width: 80%;
+  height: 2.66666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .banner .zhuti .zc .zh {
+  width: 80%;
+  height: 1.06666667rem;
+  border: 1px solid #2D6A58;
+  border-radius: 0.53333333rem;
+  display: flex;
+  justify-content: space-around;
+}
+.box .banner .zhuti .zc .zh .tx {
+  width: 1.06666667rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .zhuti .zc .zh .tx img {
+  width: 0.61333333rem;
+  height: 0.69333333rem;
+}
+.box .banner .zhuti .zc .zh input {
+  background: transparent;
+  border: none;
+  width: 70%;
+  height: 100%;
+  outline: none;
+  font-size: 0.48rem;
+}
+.box .banner .zhuti .zc .zh input::-webkit-input-placeholder {
+  color: #848786;
+}
+.box .banner .zhuti .dl {
+  width: 80%;
+  height: 2.13333333rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .banner .zhuti .dl li {
+  width: 2.93333333rem;
+  height: 1.6rem;
+}
+.box .banner .zhuti .dl li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .zhuti .dl li a img {
+  width: 2.45333333rem;
+  height: 1.22666667rem;
+}
+.box .banner .zhuti .wj {
+  width: 80%;
+  height: 1.06666667rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .zhuti .wj .xia {
+  width: 3.2rem;
+  height: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .zhuti .wj .xia a {
+  width: 2.4rem;
+  height: 0.48rem;
+  font-size: 0.4rem;
+  color: #CACCCC;
+}

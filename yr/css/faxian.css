@@ -1,0 +1,283 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+}
+.box .head {
+  width: 100%;
+  height: 4.4rem;
+}
+.box .head .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.box .head .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+.box .head .swiper-container .head-text {
+  width: 6.4rem;
+  height: 2.93333333rem;
+  position: absolute;
+  z-index: 10;
+  top: 0.53333333rem;
+  left: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.box .head .swiper-container .head-text .try {
+  width: 70%;
+  height: 1.73333333rem;
+  background: url(../img/Tryingtomakeyourselfbetter.@2x.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .head .swiper-container .head-text .nuli {
+  width: 90%;
+  height: 0.53333333rem;
+  background: url(../img/nuli.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .juxing {
+  width: 100%;
+  height: 2.26666667rem;
+  background: #1f2025;
+  border-bottom: 0.05333333rem solid #18191d;
+}
+.box .juxing ul {
+  width: 95%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .juxing ul li {
+  width: 1.33333333rem;
+  height: 70%;
+}
+.box .juxing ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .juxing ul li a img {
+  width: 0.85333333rem;
+  height: 0.90666667rem;
+}
+.box .juxing ul li a p {
+  font-size: 0.26666667rem;
+  color: #7D7E7F;
+}
+.box .re {
+  width: 100%;
+  height: 1.46666667rem;
+  background: #1f2025;
+  border-bottom: 0.05333333rem solid #18191d;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.box .re .dongtai {
+  width: 2.4rem;
+  height: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.box .re .dongtai p {
+  font-size: 0.48rem;
+  color: #769977;
+}
+.box .re .dongtai p::after {
+  content: "";
+  width: 1.6rem;
+  height: 0.05333333rem;
+  background: #7CAD9A;
+  position: absolute;
+  bottom: 0px;
+  left: 0.4rem;
+}
+.box .re .dairen {
+  width: 2.4rem;
+  height: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box .re .dairen p {
+  font-size: 0.48rem;
+  color: #878889;
+}
+.box .main {
+  width: 100%;
+  height: 12.26666667rem;
+  background: #1f2025;
+}
+.box .main li {
+  width: 100%;
+  height: 50%;
+}
+.box .main li .main {
+  width: 100%;
+  height: 4.53333333rem;
+  border-bottom: 0.05333333rem solid #18191d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .main li .main .left {
+  width: 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .main li .main .left a {
+  width: 3.25333333rem;
+  height: 3.46666667rem;
+  display: flex;
+}
+.box .main li .main .left a img {
+  width: 3.25333333rem;
+  height: 3.46666667rem;
+}
+.box .main li .main .right {
+  width: 5.86666667rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.box .main li .main .right .right-text {
+  width: 100%;
+  height: 2.93333333rem;
+}
+.box .main li .main .right .right-text .li1 {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.box .main li .main .right .right-text .li1 .li-p1 {
+  font-size: 0.34666667rem;
+  color: #979899;
+}
+.box .main li .main .right .right-text .li2 {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.box .main li .main .right .right-text .li2 img {
+  width: 0.37333333rem;
+  height: 0.34666667rem;
+}
+.box .main li .main .right .right-text .li2 .li-p2 {
+  font-size: 0.26666667rem;
+  color: #616264;
+}
+.box .main li .main .right .right-text .li3 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.box .main li .main .right .right-text .li3 .li-p3 {
+  font-size: 0.29333333rem;
+  color: #979899;
+}
+.box .main li .pinglun {
+  width: 100%;
+  height: 1.38666667rem;
+  border-bottom: 0.05333333rem solid #23242a;
+}
+.box .main li .pinglun ul {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .main li .pinglun ul li {
+  width: 0.96rem;
+  height: 1.01333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .main li .pinglun ul li a {
+  width: 0.61333333rem;
+  height: 0.64rem;
+  display: flex;
+}
+.box .main li .pinglun ul li a img {
+  width: 0.61333333rem;
+  height: 0.64rem;
+}
+.box .main li .pinglun ul li a:hover img {
+  background: url(../img/dz.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.61333333rem;
+  height: 0.64rem;
+}
+.box .foot {
+  width: 100%;
+  height: 1.46666667rem;
+  background: #34363D;
+  position: fixed;
+  bottom: 1px;
+}
+.box .foot ul {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box .foot ul li {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.box .foot ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box .foot ul li a img {
+  width: 0.58666667rem;
+  height: 0.58666667rem;
+}
+.box .foot ul li a p {
+  font-size: 0.26666667rem;
+  color: #979899;
+}
+.box .foot ul li a #p9 {
+  color: #BBBBBD;
+}
+.box .kong {
+  width: 100%;
+  height: 1.28rem;
+}
