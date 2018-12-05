@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+	<script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+	<div class="box">
+		<div class="banner">
+			<div class="top">
+				<div class="tupian"></div>
+			</div>
+			<div class="content">
+				<div class="text">
+					<div class="text-top"><p>让我们更懂你</p></div>
+					<div class="text-bottom">
+						<p>新的选择</p>
+						<p>新的启程</p>
+					</div>
+				</div>
+				<div class="kaiqi">
+					<div class="zuihou">
+						<a href="yr/denglu.html">开启3.0全新体验</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
