@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  width: 100%;
+  height: auto;
+}
+.box .banner {
+  width: 100%;
+  height: 17.78666667rem;
+  background: url(../img/bj1.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.box .banner .top {
+  width: 100%;
+  height: 5.33333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .banner .top .tupian {
+  width: 5.94666667rem;
+  height: 4.05333333rem;
+  background: url(../img/30@2x.png) no-repeat;
+  background-size: 100% 100%;
+}
+.box .banner .content {
+  width: 100%;
+  height: 10.66666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .banner .text {
+  width: 100%;
+  height: 2.66666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.box .banner .text .text-top {
+  width: 100%;
+  height: 1.06666667rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .banner .text .text-top p {
+  width: 50%;
+  font-size: 0.74666667rem;
+  color: #F7F7F7;
+}
+.box .banner .text .text-bottom {
+  width: 55%;
+  height: 1.06666667rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .banner .text p {
+  width: 2.18666667rem;
+  font-size: 0.48rem;
+  color: #E8EAE9;
+}
+.box .banner .kaiqi {
+  width: 100%;
+  height: 5.33333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.box .banner .kaiqi .zuihou {
+  width: 100%;
+  height: 1.33333333rem;
+  display: flex;
+  justify-content: center;
+}
+.box .banner .kaiqi .zuihou a {
+  width: 4rem;
+  height: 1.17333333rem;
+  border-radius: 0.21333333rem;
+  border: 1px solid #FCFCFC ;
+  font-size: 0.48rem;
+  color: #FCFCFC;
+  text-align: center;
+  line-height: 1.17333333rem;
+}
+/*# sourceMappingURL=style.css.map */
