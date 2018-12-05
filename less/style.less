@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@num:37.5rem;
+*{margin: 0px;padding:0px;}
+*{box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none;}
+.box{
+    width:100%;
+    height: auto;
+    .banner{
+        width:100%;
+        height:667/@num;
+        background: url(../img/bj1.png) no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+        .top{
+            width:100%;
+            height:200/@num;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            .tupian{
+                width:223/@num;
+                height: 152/@num;
+                background:url(../img/30@2x.png) no-repeat;
+                background-size:100% 100%;
+            }
+        }
+        .content{
+            width:100%;
+            height: 400/@num;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-content:space-around;
+        }
+        .text{
+            width:100%;
+            height:100/@num;
+            display:flex;
+            flex-wrap:wrap;
+            align-content: space-around;
+            justify-content:center;
+            .text-top{
+                width:100%;
+                height:40/@num;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                p{
+                    width:50%;
+                    font-size: 28/@num;
+                    color: #F7F7F7;
+                }
+            }
+            .text-bottom{
+                width:55%;
+                height: 40/@num;
+                display:flex;
+                flex-wrap:wrap;
+                justify-content:space-around;
+                align-items:center;
+            }
+            p{
+                width:82/@num;
+                font-size:18/@num;
+                color:#E8EAE9;
+            }
+        }
+        .kaiqi{
+            width:100%;
+            height: 200/@num;
+            display:flex;
+            justify-content:center;
+            align-items:flex-start;
+            .zuihou{
+                width:100%;
+                height:50/@num;
+                display:flex;
+                justify-content:center;
+                a{
+                    width:150/@num;
+                    height: 44/@num;
+                    border-radius: 8/@num;
+                    border:1px solid #FCFCFC ;
+                    font-size:18/@num;
+                    color:#FCFCFC;
+                    text-align: center;
+                    line-height: 44/@num;
+                }
+            }
+        }
+    }
+}
