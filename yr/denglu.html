@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/denglu.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+	<script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+	<div class="box">
+		<div class="banner">
+			<div class="tubiao">
+				<div class="tu"></div>
+			</div>
+			<div class="zhuti">
+				<ul class="zc">
+					<li class="zh">
+						<div class="tx">
+							<img src="img/sy.png" alt="">
+						</div>
+						<input type="text" name="" placeholder="Username">
+					</li>
+					<li class="zh">
+						<div class="tx">
+							<img src="img/mima.png" alt="">
+						</div>
+						<input type="password" name="" placeholder="Possword">
+					</li>
+				</ul>
+				<ul class="dl">
+					<li>
+						<a href="shouye.html">
+							<img src="img/y.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/zc.png" alt="">
+						</a>
+					</li>
+				</ul>
+				<div class="wj">
+					<div class="xia">
+						<a href="wangji.html">
+							忘记密码？
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

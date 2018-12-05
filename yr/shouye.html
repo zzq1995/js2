@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="css/shouye.css">
+     <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            <!-- <div class="head-left">
+                <a href="">
+                    <img src="img/caidan.png" alt="">
+                </a>
+            </div> -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/toubu.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/toubu.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/toubu.png" alt=""></div>
+                    <div class="swiper-slide"><img src="img/toubu.png" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="head-left">
+                    <a href="">
+                        <img src="img/caidan.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+              <!-- Swiper JS -->
+            <script src="dist/js/swiper.min.js"></script>
+
+              <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                  pagination: {
+                    el: '.swiper-pagination',
+                  },
+                });
+            </script>
+                <!-- <div class="head-bottom">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> -->
+            </div>
+        <div class="banner">
+
+            <ul class="container">
+                <li>
+                    <p>23</p>
+                    <p>岁</p>
+                </li>
+                <li>
+                    <p>O</p>
+                    <p>血型</p>
+                </li>
+                <li>
+                    <p>118天</p>
+                    <p>健身</p>
+                </li>
+                <li>
+                    <p>175cm</p>
+                    <p>身高</p>
+                </li>
+                <li>
+                    <p>52kg</p>
+                    <p>体重</p>
+                </li>
+                <li>
+                    <p>23%</p>
+                    <p>体脂率</p>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-top">
+                <div class="text">
+                    <span id="s1">好友排名训练量</span>
+                    <span>TOP</span>
+                    <span id="s2">11</span>
+                    <span>位</span>
+                </div>
+            </div>
+            <ul class="content-main">
+                <li  id="li-1">
+                    <p>我的训练</p>
+                </li>
+                <li class="li-2">
+                    <p>跑步训练</p>
+                    <p class="p1">5kg/10kg</p>
+                    <img src="img/1123.png" alt="">
+                </li>
+                <li class="li-2" id="li-3">
+                    <p>杠铃训练</p>
+                    <p class="p1">2.3kg/10kg</p>
+                    <img src="img/11232.png" alt="">
+                </li>
+                <li class="li-2" id="li-4">
+                    <p>腹肌训练</p>
+                    <p class="p1">6.3kg/10kg</p>
+                    <img src="img/1123.png" alt="">
+                </li>
+
+            </ul>
+        </div>
+        <div class="bottom">
+            <div class="t1">
+                <a href="###">
+                    <p>个人学习课程</p>
+                </a>
+            </div>
+            <div class="t-xia">
+                <h4>三周胸肌训练计划</h4>
+                <p>第7/21天</p>
+                <p>今日已锻炼36分钟，消耗650卡</p>
+            </div>
+        </div>
+        <div class="foot">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/11261404.png" alt="" />
+                        <p id="p9">首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="faxian.html">
+                        <img src="img/11261409.png" alt="" />
+                        <p >发现</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="guanzhu.html">
+                        <img src="img/11261359.png" alt="" />
+                        <p>关注</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="geren.html">
+                        <img src="img/112614.png" alt="" />
+                        <p>个人</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="kong"></div>
+    </div>
+
+</body>
+</html>

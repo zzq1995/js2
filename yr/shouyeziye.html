@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="stylesheet" type="text/css" href="css/shouyeziye.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+    <div class="box">
+        <header id="header" class="">
+            <div class="left">
+                <a href="shouye.html">
+                    <img src="img/11271100.png" alt="" />
+                </a>
+            </div>
+            <div class="zhong">
+                <p>我的课程</p>
+            </div>
+            <div class="right">
+                <a href="###">
+                    <img src="img/11271105.png" alt="">
+                </a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="shou">
+                <p>本周训练科目历程</p>
+            </div>
+            <div class="container">
+                <ul>
+                    <li>
+                        <div class="li-left">
+                            <div class="left-p">
+                                <p class="p1">星期五</p>
+                                <p class="p1">腹部肌肉锻炼</p>
+                            </div>
+                        </div>
+                        <div class="li-right">
+                            <a href="###">
+                                <img src="img/11281352.png" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-left">
+                            <div class="left-p">
+                                <p class="p1">星期四</p>
+                                <p class="p1">腹部肌肉锻炼跑步十公里</p>
+                            </div>
+                        </div>
+                        <div class="li-right">
+                            <a href="###">
+                                <img src="img/11281352.png" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-left">
+                            <div class="left-p">
+                                <p class="p1">星期三</p>
+                                <p class="p1">双臀部肌肉锻炼杠铃深蹲三组</p>
+                                <p class="p2">（一组二十）</p>
+                            </div>
+                        </div>
+                        <div class="li-right">
+                            <a href="###">
+                                <img src="img/11281352.png" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-left">
+                            <div class="left-p">
+                                <p class="p1">星期二</p>
+                                <p class="p1">游泳四十五分钟</p>
+                            </div>
+                        </div>
+                        <div class="li-right">
+                            <a href="###">
+                                <img src="img/11281352.png" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-left">
+                            <div class="left-p">
+                                <p class="p1">星期一</p>
+                                <p class="p1">哑铃进阶循环训练</p>
+                            </div>
+                        </div>
+                        <div class="li-right">
+                            <a href="###">
+                                <img src="img/11281352.png" alt="" />
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tu"></div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+</html>

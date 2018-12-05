@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="css/geren.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+   <div class="box">
+      <div class="head">
+           <div class="zhaopian">
+               <img src="img/235111-1G11109405683@2x.png" alt="" />
+           </div>
+           <div class="xiugai">
+               <p>Mary</p>
+               <div class="ziliao">
+                   <a href="">
+                       <p>修改个人资料</p>
+                       <img src="img/11261718.png" alt="">
+                   </a>
+               </div>
+           </div>
+      </div>
+      <div class="main">
+           <ul>
+               <li>
+                  <p>44动态</p>
+               </li>
+               <li>
+                 <span>44粉丝</span>
+               </li>
+               <li>
+                 <strong>44关注</strong>
+               </li>
+           </ul>
+           <ol>
+               <li>
+                <img src="img/lishi.png" alt="" />
+                <p>训练历史</p>
+               </li>
+               <li>
+                 <img src="img/yundong.png" alt="" />
+                 <p>运动历程</p>
+               </li>
+               <li>
+                 <img src="img/huode.png" alt="" />
+                 <p>获得勋章</p>
+               </li>
+               <li>
+                 <img src="img/dacheng.png" alt="" />
+                 <p>达成目标</p>
+               </li>
+           </ol>
+      </div>
+      <div class="content">
+        <ul>
+            <li>
+              <div class="li-left">
+                <p>我的收藏</p>
+              </div>
+              <div class="li-right">
+                <a href="">
+                  <img src="img/11270943.png" alt="" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="li-left">
+                <p>我的荣誉</p>
+              </div>
+              <div class="li-right">
+                <a href="">
+                  <img src="img/11270943.png" alt="" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="li-left">
+                <p>我的订单</p>
+              </div>
+              <div class="li-right">
+                <a href="">
+                  <img src="img/11270943.png" alt="" />
+                </a>
+              </div>
+            </li>
+        </ul>
+      </div>
+      <div class="sahngcheng">
+        <ul>
+            <li>
+              <div class="li-left">
+                <p>我的商城</p>
+              </div>
+              <div class="li-right">
+                <a href="faxianziye.html">
+                  <img src="img/11270943.png" alt="" />
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="li-left">
+                <p id="p1">我的优惠券</p>
+              </div>
+              <div class="li-right">
+                <a href="">
+                  <img src="img/11270943.png" alt="" />
+                </a>
+              </div>
+            </li>
+        </ul>
+      </div>
+      <footer>
+        <ul>
+          <li>
+            <a href="shouye.html">
+              <img src="img/112613.png" alt=""><p>首页</p>
+          </a>
+          </li>
+          <li>
+            <a href="faxian.html">
+              <img src="img/11261409.png" alt="" />
+              <p >发现</p>
+          </a>
+          </li>
+          <li>
+            <a href="guanzhu.html"><img src="img/11261359.png" alt=""><p >关注</p></a>
+          </li>
+          <li>
+            <a href=""><img src="img/11270957.png" alt=""><p id="id9">个人</p></a>
+          </li>
+        </ul>
+      </footer>
+      <div class="kong"></div>
+   </div>
+</body>
+</html>

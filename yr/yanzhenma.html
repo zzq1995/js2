@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/yanzhenma.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="bj">
+            <div class="head">
+                <div class="left">
+                    <a href="denglu.html">
+                        <img src="img/jt2.png" alt="">
+                        <p>返回登录</p>
+                    </a>
+                </div>
+            </div>
+            <div class="zhuti">
+                <div class="text">
+                    <p>为了您的信息安全我们已经向</p>
+                    <p>您的手机183####发送了信息</p>
+                </div>
+                <ul class="yanzhneg">
+                    <form action="yanzhenma_submit" method="get" accept-charset="utf-8">
+                        <input type="text" name="" placeholder="请输入验证码">
+                        <input type="text" name="" readonly="true" placeholder="50s后发送">
+                    </form>
+
+                </ul>
+                <div class="xyb">
+                    <a href="wangji.html"><p class="text2">下一步</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

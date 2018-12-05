@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="css/guanzhu.css">
+    <script>
+        var pixelRatio = 1 / window.devicePixelRatio;    //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+
+        var html=document.getElementsByTagName('html')[0];
+        var pageWidth=html.getBoundingClientRect().width;
+        html.style.fontSize=pageWidth/10+"px";     //10在这边只是一个基准
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            <form action="guanzhu_submit" method="get" accept-charset="utf-8">
+                <div class="sousuo">
+                    <a href="">
+                        <img src="img/sousuo.png" alt="">
+                    </a>
+                </div>
+                <input type="text" name="" placeholder="搜索用户 锻炼课程">
+            </form>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="left">
+                        <div class="pxb">
+                            <img src="img/pxb.png" alt="">
+                        </div>
+                        <div class="text">
+                            <span>排行榜</span>
+                            <p>本月锻炼量排行</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="">
+                            <img src="img/youjiantou.png" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <div class="pxb">
+                            <img src="img/weixin.png" alt="">
+                        </div>
+                        <div class="text">
+                            <span>微信</span>
+                            <p>邀请微信好友</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="guanzhuziye.html">
+                            <img src="img/youjiantou.png" alt="" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <div class="pxb">
+                            <img src="img/qq.png" alt="" id="qq">
+                        </div>
+                        <div class="text">
+                            <span>QQ</span>
+                            <p>邀请QQ好友</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="guanzhuziye.html">
+                            <img src="img/youjiantou.png" alt="" />
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="tuijian">
+            <div class="wz">
+                <p>热门</p>
+            <span>推荐</span>
+            </div>
+        </div>
+        <div class="bjtj">
+            <ul>
+                <li>
+                    <div class="li-top">
+                        <div class="left">
+                            <img src="img/timg@2x.png" alt="">
+                            <div class="left-wz">
+                                <p>Job</p>
+                                <span>编辑推荐</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="img/jiahao.png" alt="">
+                            <p>关注</p>
+                        </div>
+                    </div>
+                    <div class="tupian">
+                        <div class="picture">
+                            <img src="img/70348568@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(3)@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(2)@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(1)@2x.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="li-top">
+                        <div class="left">
+                            <img src="img/12879-111214125I651@2x.png" alt="">
+                            <div class="left-wz">
+                                <p>Mary</p>
+                                <span>编辑推荐</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="img/jiahao.png" alt="">
+                            <p>关注</p>
+                        </div>
+                    </div>
+                    <div class="tupian">
+                        <div class="picture">
+                            <img src="img/u=879489816,3737638798&fm=27&gp=0@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/240381-1G12Q3460791@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/235111-1G11109405683@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/103-160R91H143142@2x.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="li-top">
+                        <div class="left">
+                            <img src="img/d043ad4bd11373f037c07598ae0f4bfbfbed043d@2x.png" alt="">
+                            <div class="left-wz">
+                                <p>Linda</p>
+                                <span>编辑推荐</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="img/jiahao.png" alt="">
+                            <p>关注</p>
+                        </div>
+                    </div>
+                    <div class="tupian">
+                         <div class="picture">
+                            <img src="img/70348568@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(3)@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(2)@2x.png" alt="">
+                        </div>
+                        <div class="picture">
+                            <img src="img/timg(1)@2x.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="foot">
+            <ul>
+                <li>
+                    <a href="shouye.html">
+                        <img src="img/112613.png" alt=""><p>首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="faxian.html">
+                        <img src="img/11261409.png" alt="" />
+                        <p >发现</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="img/guan@2x.png" alt=""><p id="id9">关注</p></a>
+                </li>
+                <li>
+                    <a href="geren.html"><img src="img/112614.png" alt=""><p>个人</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="kong"></div>
+    </div>
+</body>
+</html>
